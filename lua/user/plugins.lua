@@ -5,11 +5,11 @@ lvim.plugins = {
         priority = 1000,
         name = "oh-lucy",
     },
-    {
-        "Pocco81/auto-save.nvim",
-        config = function()
-            require("auto-save").setup()
-        end,
-    },
+    -- {
+    --     "Pocco81/auto-save.nvim",
+    --     config = function()
+    --         require("auto-save").setup()
+    --     end,
+    -- },
     { "christoomey/vim-tmux-navigator" }
 }
