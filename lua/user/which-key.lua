@@ -11,3 +11,8 @@ wk.mappings["t"] = {
     r = { ':Telescope resume<cr>', 'Resume' },
     fg = { ':Telescope live_grep<cr>', "Live grep" },
 }
+
+-- Minimap
+wk.mappings["m"] = {
+    ":MinimapToggle<CR>", "Minimap"
+}
