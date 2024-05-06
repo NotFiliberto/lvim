@@ -3,7 +3,6 @@ local wk = lvim.builtin.which_key
 -- Autosave toggle
 wk.mappings["as"] = { ":ASToggle<CR>", "Toggle autosave" }
 
-
 -- Telescope
 wk.mappings["t"] = {
     name = 'Telescope',
