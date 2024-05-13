@@ -31,4 +31,20 @@ lvim.plugins = {
             vim.cmd("let g:minimap_auto_start_win_enter = 1")
         end,
     },
+    {
+        "kylechui/nvim-surround",
+        version = "*", -- Use for stability; omit to use `main` branch for the latest features
+        event = "VeryLazy",
+        config = function()
+            require("nvim-surround").setup({
+                -- Configuration here, or leave empty to use defaults
+            })
+        end
+    },
+    {
+        "ray-x/lsp_signature.nvim",
+        event = "VeryLazy",
+        opts = {},
+        config = function(_, opts) require 'lsp_signature'.setup(opts) end
+    },
 }
